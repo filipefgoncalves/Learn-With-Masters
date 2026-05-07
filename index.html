@@ -23,11 +23,11 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '893006910209694');
+fbq('init', '1696270314873389');
 fbq('track', 'PageView');
 </script>
 <noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=893006910209694&ev=PageView&noscript=1"
+src="https://www.facebook.com/tr?id=1696270314873389&ev=PageView&noscript=1"
 /></noscript>
 <!-- End Meta Pixel Code -->
 <style>
@@ -289,9 +289,7 @@ nav.scrolled {
   margin-bottom: 52px;
 }
 .hero-cta .btn { width: 100%; max-width: 340px; }
-.cta-hint { font-size: 12px; color: rgba(255,255,255,0.45); }
-.cta-hint s { opacity: 0.55; }
-.cta-hint strong { color: rgba(255,255,255,0.92); font-weight: 600; }
+.cta-hint { font-size: 12px; color: rgba(255,255,255,0.22); }
 
 /* ── LEAGUES ── */
 .leagues {
@@ -1082,170 +1080,6 @@ nav.scrolled {
   background: rgba(255,255,255,0.2);
 }
 
-/* ── PRICING ── */
-.pricing {
-  padding: var(--sp) var(--px);
-  max-width: 1080px;
-  margin: 0 auto;
-  text-align: center;
-}
-.pricing-head { margin-bottom: 48px; }
-.pricing-head .lbl { display: inline-block; }
-.pricing-head h2 {
-  font-size: clamp(28px, 4.5vw, 44px);
-  font-weight: 800;
-  letter-spacing: -1.5px;
-  line-height: 1.1;
-  margin-bottom: 12px;
-}
-.pricing-head h2 em { color: var(--green); font-style: normal; }
-.pricing-head p {
-  font-size: 15px;
-  color: var(--text);
-  max-width: 480px;
-  margin: 0 auto;
-  line-height: 1.7;
-}
-
-.pricing-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 18px;
-  align-items: stretch;
-}
-
-.pcard {
-  position: relative;
-  background: rgba(255,255,255,0.025);
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  padding: 34px 28px 30px;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  transition: transform 0.35s var(--ease), border-color 0.35s var(--ease), box-shadow 0.35s var(--ease);
-}
-.pcard:hover {
-  transform: translateY(-3px);
-  border-color: rgba(163,230,53,0.22);
-  box-shadow: 0 18px 40px -16px rgba(0,0,0,0.5);
-}
-.pcard.featured {
-  background: rgba(163,230,53,0.055);
-  border-color: rgba(163,230,53,0.42);
-  box-shadow: 0 24px 56px -22px rgba(163,230,53,0.22);
-}
-.pcard.featured:hover {
-  border-color: rgba(163,230,53,0.6);
-  box-shadow: 0 30px 64px -22px rgba(163,230,53,0.32);
-}
-
-.pcard-badge {
-  position: absolute;
-  top: -11px;
-  left: 50%;
-  transform: translateX(-50%);
-  background: var(--green);
-  color: #09090b;
-  font-size: 10px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 5px 12px;
-  border-radius: 100px;
-  white-space: nowrap;
-}
-
-.pcard-name {
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--green);
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  margin-bottom: 18px;
-}
-
-.pcard-price {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-bottom: 6px;
-}
-.pcard-orig {
-  font-size: 17px;
-  color: rgba(255,255,255,0.3);
-  text-decoration: line-through;
-  font-weight: 600;
-}
-.pcard-amt {
-  font-size: 44px;
-  font-weight: 800;
-  color: #fafafa;
-  letter-spacing: -1.5px;
-  line-height: 1;
-}
-.pcard-per { font-size: 14px; color: rgba(255,255,255,0.45); }
-
-.pcard-billed {
-  font-size: 12.5px;
-  color: rgba(255,255,255,0.42);
-  margin-bottom: 14px;
-  line-height: 1.5;
-}
-.pcard-save {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
-  color: var(--green);
-  background: rgba(163,230,53,0.1);
-  border: 1px solid rgba(163,230,53,0.22);
-  border-radius: 100px;
-  padding: 4px 11px;
-  margin-bottom: 22px;
-  letter-spacing: 0.04em;
-}
-
-.pcard-feats {
-  list-style: none;
-  margin: 0 0 26px;
-  padding: 0;
-  font-size: 13.5px;
-  color: var(--text);
-  line-height: 1.7;
-  flex-grow: 1;
-}
-.pcard-feats li {
-  padding-left: 22px;
-  position: relative;
-  margin-bottom: 9px;
-}
-.pcard-feats li::before {
-  content: '';
-  position: absolute;
-  left: 2px; top: 7px;
-  width: 11px; height: 6px;
-  border-left: 1.5px solid var(--green);
-  border-bottom: 1.5px solid var(--green);
-  transform: rotate(-45deg);
-}
-
-.pcard .btn {
-  width: 100%;
-  padding: 14px;
-  font-size: 13px;
-}
-.pcard:not(.featured) .btn {
-  background: rgba(255,255,255,0.06);
-  color: #fafafa;
-  box-shadow: none;
-}
-.pcard:not(.featured) .btn::before { display: none; }
-.pcard:not(.featured) .btn:hover {
-  background: rgba(255,255,255,0.1);
-  box-shadow: none;
-}
-
 /* ── CLOSING ── */
 .closing {
   padding: var(--sp) var(--px);
@@ -1657,15 +1491,6 @@ footer::before {
   .notify-form { flex-direction: column; }
   .btn-sm { width: 100%; text-align: center; }
 
-  /* PRICING */
-  .pricing { padding: var(--sp) var(--px); }
-  .pricing-head { margin-bottom: 36px; }
-  .pricing-head h2 { font-size: 26px; }
-  .pricing-head p { font-size: 14px; }
-  .pricing-grid { grid-template-columns: 1fr; gap: 22px; }
-  .pcard { padding: 28px 22px 26px; }
-  .pcard-amt { font-size: 38px; }
-
   /* CLOSING */
   .closing { padding: var(--sp) var(--px); }
   .urgency-card { padding: 22px 20px; }
@@ -1713,8 +1538,8 @@ footer::before {
   <h1>Closer to professional football<em>than you've ever been.</em></h1>
   <p class="hero-sub">Elite players, coaches and decision-makers from the <strong>world's top leagues</strong> share what they never share publicly — so you learn what actually takes you there.</p>
   <div class="hero-cta">
-    <a href="signup.html" class="btn">Get Early Access — 1 Week Free at Launch</a>
-    <span class="cta-hint">Plans from <strong>€15.99</strong>/month · 1-week free trial · No credit card needed</span>
+    <a href="signup.html" class="btn">Get Early Access — It's Free</a>
+    <span class="cta-hint">1-week free trial at launch · No credit card needed</span>
   </div>
   <div class="leagues">
     <div class="leagues-lbl">Mentors from the world's best leagues</div>
@@ -1964,70 +1789,8 @@ footer::before {
   </div>
   <div class="notify">
     <p class="notify-lbl">Be the first to know when each master is <em>revealed.</em></p>
-    <a href="signup.html" class="btn">Get Early Access — 1 Week Free at Launch</a>
-    <div class="cta-hint" style="margin-top:10px;">Plans from <strong>€15.99</strong>/month · 1-week free trial · No credit card needed</div>
-  </div>
-</div>
-
-<!-- PRICING -->
-<div class="pricing reveal">
-  <div class="pricing-head">
-    <span class="lbl">Waitlist pricing</span>
-    <h2><em>Founding</em> member pricing.</h2>
-    <p>Every plan starts with a 1-week free trial — no credit card needed. You'll pick yours at launch.</p>
-  </div>
-  <div class="pricing-grid">
-
-    <div class="pcard">
-      <div class="pcard-name">Monthly</div>
-      <div class="pcard-price">
-        <span class="pcard-amt">€24.99</span>
-        <span class="pcard-per">/month</span>
-      </div>
-      <div class="pcard-billed">Billed monthly · Cancel anytime</div>
-      <ul class="pcard-feats">
-        <li>1-week free trial at launch</li>
-        <li>Full flexibility — pay as you go</li>
-        <li>For testing the waters</li>
-      </ul>
-      <a href="signup.html" class="btn">Claim my free trial</a>
-    </div>
-
-    <div class="pcard featured">
-      <span class="pcard-badge">Most Popular</span>
-      <div class="pcard-name">6 months</div>
-      <div class="pcard-price">
-        <span class="pcard-orig">€24.99</span>
-        <span class="pcard-amt">€17.99</span>
-        <span class="pcard-per">/month</span>
-      </div>
-      <div class="pcard-billed">€107.94 billed every 6 months</div>
-      <span class="pcard-save">Save 28% vs monthly</span>
-      <ul class="pcard-feats">
-        <li>The choice most waitlist members make</li>
-        <li>Best balance of price and flexibility</li>
-        <li>1-week free trial included</li>
-      </ul>
-      <a href="signup.html" class="btn">Claim my free trial</a>
-    </div>
-
-    <div class="pcard">
-      <div class="pcard-name">12 months</div>
-      <div class="pcard-price">
-        <span class="pcard-orig">€24.99</span>
-        <span class="pcard-amt">€15.99</span>
-        <span class="pcard-per">/month</span>
-      </div>
-      <div class="pcard-billed">€191.88 billed yearly</div>
-      <span class="pcard-save">Save 36% vs monthly</span>
-      <ul class="pcard-feats">
-        <li>Lowest possible monthly rate</li>
-        <li>For going all-in from day one</li>
-        <li>1-week free trial included</li>
-      </ul>
-      <a href="signup.html" class="btn">Claim my free trial</a>
-    </div>
-
+    <a href="signup.html" class="btn">Get Early Access — It's Free</a>
+    <div class="cta-hint" style="margin-top:10px;">1-week free trial at launch · No credit card needed</div>
   </div>
 </div>
 
@@ -2050,11 +1813,11 @@ footer::before {
       <div class="ab-bar"><div class="ab-fill"></div></div>
     </div>
     <div class="uc-perks">
-      <span>1-week free trial — no card needed</span>
+      <span>1-week free trial</span>
       <span class="uc-dot"></span>
-      <span>Founding member pricing</span>
+      <span>20% lifetime discount</span>
       <span class="uc-dot"></span>
-      <span>Early access</span>
+      <span>Locked in permanently</span>
     </div>
   </div>
 
@@ -2062,8 +1825,8 @@ footer::before {
     <div class="n-h">Some players talk about going pro.<br><em>Others prepare like they already are.</em></div>
     <p class="n-p">This was built for the second kind — <strong>the ones who show up before they have to, who do the work no one sees.</strong></p>
     <p class="closing-line">If that's you, your spot is here.</p>
-    <a href="signup.html" class="btn">Get Early Access — 1 Week Free at Launch</a>
-    <div class="cta-hint" style="margin-top:10px;">Plans from <strong>€15.99</strong>/month · 1-week free trial · No credit card needed</div>
+    <a href="signup.html" class="btn">Get Early Access — It's Free</a>
+    <div class="cta-hint" style="margin-top:10px;">1-week free trial at launch · No credit card needed</div>
   </div>
 
 </div>
@@ -2083,7 +1846,7 @@ footer::before {
         <span class="faq-toggle"></span>
       </summary>
       <div class="faq-answer">
-        Yes. Everyone on the waitlist gets a <strong>1-week free trial</strong> at launch — full access, no restrictions, no credit card required upfront. After the trial, you can pick a <strong>founding member plan from €15.99/month</strong> or cancel without paying anything.
+        Yes. Everyone on the waitlist gets a <strong>1-week free trial</strong> at launch — full access, no restrictions, no credit card required upfront. After the trial, members on the waitlist also lock in a permanent <strong>20% discount</strong> on the regular subscription.
       </div>
     </details>
 
